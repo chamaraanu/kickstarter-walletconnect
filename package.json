@@ -1,22 +1,26 @@
 {
-  "name": "dapp-wagmi",
+  "name": "kickstarter-walletconnect",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^0.7.1",
+    "@chakra-ui/react": "^2.5.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@rainbow-me/rainbowkit": "^0.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "ethers": "^5.7.0",
+    "ethers": "^5.7.2",
+    "framer-motion": "^9.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.54.9",
-    "wagmi": "^0.6.5",
+    "wagmi": "^0.10.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "HTTPS=true react-app-rewired start",
+    "start": "react-app-rewired start",
     "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
